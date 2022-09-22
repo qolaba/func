@@ -1,0 +1,23 @@
+specVersion: 0.25.0
+name: kubecon
+namespace: default
+runtime: go
+registry: docker.io/salaboy
+image: docker.io/salaboy/kubecon:latest
+imageDigest: sha256:b7b4b7cfddf58b7ba9a95ca99369a87cf1ca29cee08222c4c8df1212f430b561
+buildpacks:
+- paketo-buildpacks/go-dist
+- ghcr.io/boson-project/go-function-buildpack:tip
+builder: pack
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2022-09-22T09:43:23.389691+01:00
+invocation:
+  format: http
