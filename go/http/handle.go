@@ -14,5 +14,5 @@ func Handle(ctx context.Context, res http.ResponseWriter, req *http.Request) {
 	 * Try running `go test`.  Add more test as you code in `handle_test.go`.
 	 */
 
-	fmt.Fprintf(res, " _______________________________________\n/ What a RUSH! We just deploy a Knative \\\n\\ Function live on a Keynote!           /\n  ---------------------------------------\n\t\t\\   ^__^\n\t\t \\  (oo)\\_______\n\t\t    (__)\\       )\\/\\\n\t\t\t||----w |\n\t\t\t||     ||\n")
+	fmt.Fprintf(res, " _______________________________________\n/ What a RUSH! We just deploy a Knative \\\n\\ Function live on a Keynote!           /\n ---------------------------------------\n\t\t\\   ^__^\n\t\t \\  (oo)\\_______\n\t\t    (__)\\       )\\/\\\n\t\t\t||----w |\n\t\t\t||     ||\n")
 }
