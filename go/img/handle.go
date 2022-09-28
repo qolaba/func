@@ -2,7 +2,7 @@ package function
 
 import (
 	"context"
-	"ioutil"
+	"io/ioutil"
 	"net/http"
 )
 
