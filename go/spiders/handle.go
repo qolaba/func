@@ -14,7 +14,7 @@ func Handle(ctx context.Context, res http.ResponseWriter, req *http.Request) {
 	 * Try running `go test`.  Add more test as you code in `handle_test.go`.
 	 */
 
-	fileBytes, err := ioutil.ReadFile("rainbowsrainbowsrainbows.png")
+	fileBytes, err := ioutil.ReadFile("rainbows-spider.png")
 	if err != nil {
 		panic(err)
 	}
