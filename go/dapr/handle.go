@@ -4,16 +4,17 @@ import (
 	"context"
 	"encoding/json"
 	"net/http"
-
+	"strconv"
 	dapr "github.com/dapr/go-sdk/client"
 )
 
-type MyValues struct {
-	Values []string
-}
-
 var STATE_STORE_NAME = "statestore"
 var daprClient dapr.Client
+
+//type MyValues struct {
+//	Values []string
+//}
+
 
 // Handle an HTTP Request.
 func Handle(ctx context.Context, res http.ResponseWriter, req *http.Request) {
