@@ -19,9 +19,9 @@ buildpacks:
 invocation:
   # Invocations of Functions from this template is via basic HTTP CloudEvent
   format: "http"
-
-annotations: 
-  dapr.io/app-id: webapp
-  dapr.io/app-port: "8080"
-  dapr.io/enabled: "true"
-  dapr.io/metrics-port: "9099"
+deploy: 
+  annotations: 
+    dapr.io/app-id: webapp
+    dapr.io/app-port: "8080"
+    dapr.io/enabled: "true"
+    dapr.io/metrics-port: "9099"
